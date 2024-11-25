@@ -2,13 +2,16 @@ import styled from "@emotion/styled";
 import { motion } from "framer-motion";
 
 export const Container = styled.div`
+  position: relative;
   max-width: 100%;
   margin: 0 auto;
   padding: 20px;
   color: #fff;
-  background-color: #000;
   min-height: 100vh;
   box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent white overlay */
+  backdrop-filter: blur(5px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(5px); /* For Safari */
   @media (max-width: 768px) {
     padding: 10px;
   }
