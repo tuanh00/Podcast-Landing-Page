@@ -1,5 +1,5 @@
-import styled from '@emotion/styled';
-import { motion } from 'framer-motion';
+import styled from "@emotion/styled";
+import { motion } from "framer-motion";
 
 export const Container = styled.div`
   max-width: 100%;
@@ -8,7 +8,7 @@ export const Container = styled.div`
   color: #fff;
   background-color: #000;
   min-height: 100vh;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   @media (max-width: 768px) {
     padding: 10px;
   }
@@ -59,7 +59,7 @@ export const PodcastCard = styled(motion.div)`
   width: 100%;
   margin: 0 auto;
   gap: 20px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   @media (max-width: 800px) {
     padding: 0 20px;
   }
@@ -71,10 +71,9 @@ export const PodcastCard = styled(motion.div)`
   }
 `;
 
-
 export const PodcastIframeWrapper = styled.div`
   flex: 1;
-  min-width: 300px; 
+  min-width: 300px;
   iframe {
     width: 100%;
     height: 200px;
