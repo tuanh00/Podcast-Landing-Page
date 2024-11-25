@@ -1,50 +1,72 @@
-# React + TypeScript + Vite
+# My Podcast Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a self-produced podcast landing page built using Vite, React, and styled with Emotion and Framer Motion. The website showcases my podcast content with an interactive and responsive design, deployed on Vercel.
 
-Currently, two official plugins are available:
+## 📝 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+My Podcast Landing Page is a dynamic and engaging website designed to present my self-produced podcast content. The landing page provides listeners with easy access to episodes, descriptions, and interactive elements that enhance user experience.
 
-## Expanding the ESLint configuration
+This project uses:
+- **React** for building interactive UI components.
+- **Vite** as a fast build tool for modern web development.
+- **Emotion Styled Components** for writing CSS-in-JS, allowing for dynamic styling.
+- **Framer Motion** for animations and transitions to create smooth interactions.
+- **React-Icons** for incorporating icons to improve visual appeal.
+- **React Router DOM** for client-side routing and navigation.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+You can view the live demo of the project here:  
+🔗 [Live Demo](https://portfolio-tuanh.vercel.app/)
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Deployment
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Deployed on **Vercel** on **24th November 2024**.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 💻 Installation
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+To get this project up and running:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone the repository or download the zip file.**
+2. **Open the folder in Visual Studio Code** or your preferred IDE. 
+3. **Open a new terminal** in your IDE.
+4. Run `'npm i' ` to install all dependencies. Wait for the installation to complete.
+5. Run `'npm run dev'` to start the development server.
+6. Open the local development server URL (e.g., `'http://localhost:5173/'`) in your browser to view the project.
+
+Once you see the local port running, open it in your browser to view the project.
+
+## 📋 Requirements
+
+To run this project locally, ensure that Node.js is installed. My current project uses:
+
+- **Node.js** version: `18.16.1`
+- **Vite** version: `5.4.10`
+
+You can check and install Node.js from [here](https://nodejs.org/en/download).
+
+## 📦 Dependencies
+
+- **@emotion/styled**: For writing CSS-in-JS styling within components.
+- **Framer Motion**: For adding animations and smooth transitions.
+- **React**: Core library for building the user interface.
+- **React DOM**: For DOM-specific methods.
+- **React Icons**: To display a wide range of icons.
+- **React Router DOM**: For client-side routing and navigation.
+
+## 🛠 Dev Dependencies
+
+- **@eslint/js**: ESLint configuration for JavaScript.
+- **@types/react & @types/react-dom**: TypeScript type definitions for React.
+- **@vitejs/plugin-react**: Vite plugin for React support.
+- **ESLint**: Linter for identifying and reporting on patterns in JavaScript.
+- **TypeScript**: For static typing in JavaScript.
+- **Vite**: Build tool and development server.
+
+## 🎨 Features
+
+- **Responsive Design**: Optimized for all screen sizes, from mobile devices to desktops.
+- **Interactive Animations**: Utilizes Framer Motion for smooth animations and transitions.
+- **Dynamic Styling**: Uses Emotion for styling components with CSS-in-JS.
+- **Fast Load Times**: Thanks to Vite’s optimized build process.
+- **Self-Produced Podcast Content**: Showcases personally created podcast episodes.
+
+
