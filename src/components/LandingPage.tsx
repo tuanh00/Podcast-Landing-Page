@@ -19,6 +19,7 @@ export const LandingPage: React.FC = () => {
         "Huynh Tu Anh Chau's Podcast, Episode 1 - How I Used ChatGPT to Score 100% on My Coding Project!",
       description: (
         <>
+          <h2>How I Used ChatGPT to Score 100% on My Coding Project!</h2>
           <p>
             In this episode, I recount my experience of applying ChatGPT to
             achieve a perfect score on a technical project. I also highlight the
@@ -60,6 +61,9 @@ export const LandingPage: React.FC = () => {
         "Huynh Tu Anh Chau's Podcast, Episode 2 - AI Changed My Life: How Artificial Intelligence Helps with ADHD",
       description: (
         <>
+          <h2>
+            AI Changed My Life: How Artificial Intelligence Helps with ADHD
+          </h2>
           <p>
             This episode delves into how AI tools can support individuals with
             ADHD by offering personalized assistance without judgment. While we
@@ -80,6 +84,17 @@ export const LandingPage: React.FC = () => {
               target="_blank"
             >
               AI for ADHD: How to Make ChatGPT Work for You
+            </a>
+            <br />
+            <span role="img" aria-label="link">
+              🔗
+            </span>{" "}
+            <a
+              href="https://www.cbc.ca/news/health/adult-adhd-undiagnosed-1.7363501"
+              target="_blank"
+            >
+              More adults think they have ADHD. But many are struggling to get
+              diagnosed | Jennifer Yoon | CBC News
             </a>
             <br />
             <span role="img" aria-label="link">
@@ -110,6 +125,7 @@ export const LandingPage: React.FC = () => {
         "Huynh Tu Anh Chau's Podcast, Episode 3 - The AI Job Takeover: Will AI Replace Programmers?",
       description: (
         <>
+          <h2>The AI Job Takeover: Will AI Replace Programmers?</h2>
           <p>
             This episode explores the fears and realities surrounding AI
             automation in the tech industry. Debate whether AI will render
