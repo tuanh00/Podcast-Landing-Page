@@ -8,6 +8,7 @@ import {
   PodcastIframeWrapper,
   PodcastDescription,
 } from "./styledComponents";
+import { MessageForm } from "./MessageForm";
 
 export const LandingPage: React.FC = () => {
   const episodes = [
@@ -190,6 +191,8 @@ export const LandingPage: React.FC = () => {
           </PodcastCard>
         ))}
       </PodcastSection>
+      {/* Add the MessageForm component*/}
+      <MessageForm />
     </Container>
   );
 };
