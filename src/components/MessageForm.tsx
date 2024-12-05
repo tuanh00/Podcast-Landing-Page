@@ -30,7 +30,7 @@ export const MessageForm: React.FC = () => {
       .then(
         () => {
           setShowThankYou(true); // Show thank-you message
-          setTimeout(() => setShowThankYou(false), 3000); // Hide it after 3 seconds
+          setTimeout(() => setShowThankYou(false), 2000); // Hide it after 2 seconds
           setFormData({ name: "", message: "" }); // Clear the form
         },
         (error) => {
