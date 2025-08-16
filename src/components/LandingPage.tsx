@@ -14,7 +14,7 @@ export const LandingPage: React.FC = () => {
   const episodes = [
     {
       id: 1,
-      src: "https://www.buzzsprout.com/2425240/episodes/16121487-episode-1-how-i-used-chatgpt-to-score-100-on-my-coding-project?client_source=small_player&iframe=true",
+      src: "https://www.buzzsprout.com/2425240/episodes/17679309-ep1-how-i-used-chatgpt-to-score-100-on-my-coding-project?client_source=small_player&iframe=true",
       title:
         "Huynh Tu Anh Chau's Podcast, Episode 1 - How I Used ChatGPT to Score 100% on My Coding Project!",
       description: (
@@ -56,7 +56,7 @@ export const LandingPage: React.FC = () => {
     },
     {
       id: 2,
-      src: "https://www.buzzsprout.com/2425240/episodes/16165349-episode-2-ai-changed-my-life-how-artificial-intelligence-helps-with-adhd?client_source=small_player&iframe=true",
+      src: "https://www.buzzsprout.com/2425240/episodes/17679317-ep2-ai-changed-my-life-how-artificial-intelligence-helps-with-adhd?client_source=small_player&iframe=true",
       title:
         "Huynh Tu Anh Chau's Podcast, Episode 2 - AI Changed My Life: How Artificial Intelligence Helps with ADHD",
       description: (
@@ -120,7 +120,7 @@ export const LandingPage: React.FC = () => {
     },
     {
       id: 3,
-      src: "https://www.buzzsprout.com/2425240/episodes/16165377-episode-3-the-ai-job-takeover-will-ai-replace-programmers?client_source=small_player&iframe=true",
+      src: "https://www.buzzsprout.com/2425240/episodes/17679319-ep3-the-ai-job-takeover-will-ai-replace-programmers?client_source=small_player&iframe=true",
       title:
         "Huynh Tu Anh Chau's Podcast, Episode 3 - The AI Job Takeover: Will AI Replace Programmers?",
       description: (
